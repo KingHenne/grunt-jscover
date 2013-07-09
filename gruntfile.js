@@ -2,14 +2,14 @@
 
 module.exports = function(grunt) {
 
-  grunt.loadTasks('./tasks');
+	grunt.loadTasks('./tasks');
 
-  grunt.initConfig({
-    jscoverage: {
-      options: {
-        inputDirectory: 'lib',
-        outputDirectory: 'lib-cov'
-      }
-    }
-  });
+	grunt.initConfig({
+		jscover: {
+			options: {
+				inputDirectory: 'lib',
+				outputDirectory: 'lib-cov'
+			}
+		}
+	});
 };

@@ -1,20 +1,19 @@
-grunt-jscoverage
-==============
+# grunt-jscover
 
-Grunt task for jscoverage; which will parse your source code and generate an instrumented version allowing testing tools to generate code coverage reports.
+Grunt task for jscover; which will parse your source code and generate an instrumented version allowing testing tools to generate code coverage reports.
 
-This module requires [node-jscoverage](https://github.com/visionmedia/node-jscoverage) in order to function:
+This is a fork of [grunt-jscoverage](https://github.com/AndrewKeig/grunt-jscoverage) which uses [JSCover](http://tntim96.github.com/JSCover/) instead of [node-jscoverage](https://github.com/visionmedia/node-jscoverage).
 
 
 ## Installation
 
 Install npm package
 
-    npm install grunt-jscoverage --save-dev
+    npm install grunt-jscover --save-dev
 
 Add this line to your project's `Gruntfile.js`:
 
-    grunt.loadNpmTasks("grunt-jscoverage");
+    grunt.loadNpmTasks("grunt-jscover");
 
 
 ## Usage
@@ -34,6 +33,5 @@ grunt.initConfig({
 
 ## Run
 ````
-grunt jscoverage
+grunt jscover
 ````
-

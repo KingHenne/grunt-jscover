@@ -1,37 +1,42 @@
 {
-  "name": "grunt-jscoverage",
-  "description": "Grunt task for jscoverage; which will parse your source code and generate an instrumented version allowing testing tools to generate code coverage reports",
-  "version": "0.0.2",
-  "homepage": "https://github.com/andrewkeig/grunt-jscoverage",
-  "author": {
-    "name": "Andrew Keig",
-    "email": "andrew.keig@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/andrewkeig/grunt-jscoverage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/andrewkeig/grunt-jscoverage/issues"
-  },
-  "main": "Gruntfile.js",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "dependencies": {
-    "grunt": "~0.4.1"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.1"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
-  },
-    "keywords": [
-    "gruntplugin",
-    "jscoverage",
-    "code coverage",
-    "mocha",
-    "vows"
-  ]
+	"name": "grunt-jscover",
+	"description": "Grunt task for jscover",
+	"version": "0.0.1",
+	"homepage": "https://github.com/kinghenne/grunt-jscover.git",
+	"author": {
+		"name": "Hendrik Liebau",
+		"email": "mail@hendrik-liebau.de"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kinghenne/grunt-jscover.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kinghenne/grunt-jscover/issues"
+	},
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"dependencies": {
+		"grunt": "~0.4.1",
+		"jscover": "~0.2.4"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"jscover": "~0.2.4"
+	},
+	"peerDependencies": {
+		"grunt": "~0.4.1",
+		"jscover": "~0.2.4"
+	},
+	"keywords": [
+		"gruntplugin",
+		"jscover",
+		"jscoverage",
+		"code coverage",
+		"mocha",
+		"vows"
+	],
+	"readmeFilename": "README.md"
 }
