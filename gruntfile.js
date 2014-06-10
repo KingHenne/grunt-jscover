@@ -6,9 +6,9 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		jscover: {
-			options: {
-				inputDirectory: 'lib',
-				outputDirectory: 'lib-cov'
+			lib: {
+				src: 'lib',
+				dest: 'lib-cov'
 			}
 		}
 	});
