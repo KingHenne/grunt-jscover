@@ -23,9 +23,13 @@ note: this task will delete the contents of the output-directory; if one exists;
 ````
 grunt.initConfig({
   jscover: {
-    options: {
-      inputDirectory: 'lib',
-      outputDirectory: 'lib-cov'
+    lib: { 
+      src: ['lib'],
+      dest: ['lib-cov']
+    },
+    src: {
+      src: ['src'],
+      dest: ['src-cov']
     }
   }
 });
